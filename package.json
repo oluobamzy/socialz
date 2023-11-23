@@ -1,0 +1,19 @@
+{
+  "name": "socialz",
+  "version": "1.0.0",
+  "description": "A social communication tool for babies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluobamzy/socialz.git"
+  },
+  "author": "oluwasegun idowu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oluobamzy/socialz/issues"
+  },
+  "homepage": "https://github.com/oluobamzy/socialz#readme"
+}
