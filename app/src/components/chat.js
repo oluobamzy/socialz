@@ -5,7 +5,7 @@ import { TextField, Button, Paper, Typography, Container } from '@mui/material';
 const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [inputMessage, setInputMessage] = useState('');
-  const [response, setResponse] = useState('Hi, I am a chatbot!');
+  
 
   const handleSendMessage = () => {
     if (inputMessage.trim() === '') return;
@@ -19,7 +19,11 @@ const Chat = () => {
     // Example: If the user asks about the weather
     if (inputMessage.toLowerCase().includes('weather')) {
       botResponse = { text: 'The weather is great today!', sender: 'bot' };
-    } else {
+    } else if (inputMessage.toLowerCase().includes('morning')) {
+      // Default response for other queries
+      botResponse = { text: 'Good morning. How can i help you?', sender: 'bot' };
+    }
+    else {
       // Default response for other queries
       botResponse = { text: 'I am a simple bot. Ask me about the weather!', sender: 'bot' };
     }

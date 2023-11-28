@@ -3,7 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
-import { borderRadius } from '@mui/system';
+
 
 export default function Welcome({setIsWelcome}) {
   const handleClick = () => {
