@@ -5,7 +5,10 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import { borderRadius } from '@mui/system';
 
-export default function Welcome() {
+export default function Welcome({setIsWelcome}) {
+  const handleClick = () => {
+    setIsWelcome(false);
+  };
   return (
     <React.Fragment>
       <CssBaseline />
@@ -43,7 +46,7 @@ export default function Welcome() {
              alt="logo"
              style={{ height: '100%', width: 'auto', borderRadius:"10%", alignSelf:"center" }}
            />
-           <Button style={{color:"white", backgroundColor:"blue", width: "50%"}}>
+           <Button style={{color:"white", backgroundColor:"blue", width: "100%"}} onClick={handleClick}>
               Call a Friend
             </Button> 
          </Box>
