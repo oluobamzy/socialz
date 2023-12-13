@@ -1,0 +1,23 @@
+.chat-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+
+}
+.chat-container h1{
+  color:white;
+}
+.message-container{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    border:2px solid white;
+    width: 400px;
+    margin-bottom: 100px;
+    color:white;
+    text-align: center;    
+}

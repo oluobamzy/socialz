@@ -46,3 +46,24 @@ body{
 .action-bar__item__img{
   width: 50%;
 }
+@media  screen and (max-width: 768px) {
+  .action-bar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .text-area-action{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .action-bar__item__img{
+    width: 100%;
+  }
+  .action-bar__item__img img{
+    max-height: 200px;
+  }
+}
