@@ -5,7 +5,7 @@ import App from './App';
 import Chat from './components/chat';
 import Services from './components/Services';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import Projects from './components/Projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +14,7 @@ root.render(
       <Route path="/" element={<App />} /> 
       <Route path="/services" element={<Services />} />
       <Route path="/chat" element={<Chat />} />
-      <Route path="/projects" element={<projects />} />
+      <Route path="/projects" element={<Projects />} />
     </Routes>
   </BrowserRouter>
   

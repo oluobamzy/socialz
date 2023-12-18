@@ -15,7 +15,7 @@ const Nav = ({isSignedIn, onSignOut}) => {
       ) : (
         <button>Sign In</button>
       )}</li>
-                <li><a href="projects">Projects</a></li>
+                <li><a href="/projects">Projects</a></li>
                 <li><a href="projects">Profile</a></li>
             </ul>
         </nav>

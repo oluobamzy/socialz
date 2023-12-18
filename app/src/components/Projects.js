@@ -1,11 +1,13 @@
+import Footer from "./Footer";
 import ProjectCard from "./ProjectCard";
-import "./Projects.css";
+import "./projects.css";
 
 const Projects = () => {
     return (
         <div className="projects-container">
-            <h1>Projects</h1>
              <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
         </div>
     );
 };
