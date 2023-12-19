@@ -3,11 +3,23 @@
   width:100%;
   height:100vh;
   background-color: black;
+  flex-direction: column;
   
+}
+.projects-container h1{
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
 }
 .card{
   width:100%;
   display: flex;
+}
+.projects{
+  
+  display: flex;
+
 }
 .projects-card{
   width: 100%;
