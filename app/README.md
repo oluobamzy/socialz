@@ -5,7 +5,7 @@ Welcome to Rewind, an agency business website built with React that combines mod
 ### Site images
 ![Home Screen]("app/src/components/Images/Rewind main page.PNG");
 ![Chat Assistant]("app/src/components/Images/rewind assistant.PNG");
-![Projects]("app/src/components/Images/rewind-projects.PNG");
+
 
 ### Features
 # Professional Portfolio: 
