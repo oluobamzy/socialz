@@ -3,8 +3,8 @@
 Welcome to Rewind, an agency business website built with React that combines modern design with real-time chat functionality. This website not only showcases your agency's services and portfolio but also integrates OpenAI for instant information retrieval through the chat feature. The application utilizes React's useState hook, CSS, and JavaScript to create a seamless and interactive user experience.
 
 ### Site images
-![Home Screen]("https://github.com/oluobamzy/socialz/blob/5e19467bd9b2619f504e3acd085e6d30553585fb/app/src/components/Images/RewindMainPage.PNG");
-![Chat Assistant]("https://github.com/oluobamzy/socialz/blob/5e19467bd9b2619f504e3acd085e6d30553585fb/app/src/components/Images/rewindAssistant.PNG");
+![Home Screen]("app/src/components/Images/RewindMainPage.PNG");
+![Chat Assistant]("app/src/components/Images/rewindAssistant.PNG");
 
 
 ### Features
